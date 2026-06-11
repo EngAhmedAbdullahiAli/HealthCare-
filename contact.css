@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #F8F9FA;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 8%;
+  background: white;
+}
+
+.navbar a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #212529;
+}
+
+.logo {
+  color: #0D6EFD;
+  font-weight: bold;
+}
+
+.hero {
+  background: #0D6EFD;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+.contact {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding: 50px 8%;
+  flex-wrap: wrap;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #20C997;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.info {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #212529;
+  color: white;
+}
