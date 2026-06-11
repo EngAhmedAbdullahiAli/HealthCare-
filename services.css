@@ -17,6 +17,12 @@ body {
   color: #212529;
 }
 
+.navbar a.active {
+  color: #0D6EFD;
+  font-weight: bold;
+  border-bottom: 2px solid #0D6EFD;
+}
+
 .logo {
   color: #0D6EFD;
   font-weight: bold;
